@@ -8,9 +8,8 @@ import cucumber.api.junit.Cucumber;
 
 		glue = {"stepdefs"},
 		features = {"classpath:features"},
-		tags = {""},
 //		features = {"src/test/resources/features/[CUCABLE:FEATURE].feature"}
-		plugin = {"json:src/test/resources/cucumber-report/[CUCABLE:RUNNER].json"}
+//		plugin = {"json:src/test/resources/cucumber-report/[CUCABLE:RUNNER].json"}
 		)
 
 
