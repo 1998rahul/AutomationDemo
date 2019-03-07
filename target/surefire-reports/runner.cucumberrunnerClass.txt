@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: runner.cucumberrunnerClass
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.215 sec <<< FAILURE! - in runner.cucumberrunnerClass
+initializationError(runner.cucumberrunnerClass)  Time elapsed: 0.005 sec  <<< ERROR!
+java.lang.IllegalArgumentException: Not a file or directory: /home/qainfotech/Documents/frameWork/amazonDemo/src/test/resources/features/[CUCABLE:FEATURE].feature
+

@@ -1,0 +1,134 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4632096675,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.tearup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "verify Amazon home page",
+        "description": "",
+        "id": "demo1;verify-amazon-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3348846443,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I verify Amazon logo is displayed",
+            "match": {
+              "location": "HomePageSteps.i_verify_Amazon_logo_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 78690434,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Search item",
+            "match": {
+              "location": "HomePageSteps.search_bar_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 288534874,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I search multiple item",
+            "match": {
+              "location": "HomePageSteps.i_search_multiple_item(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "mobile"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "headphone"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "books"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3890147238,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.tearup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Search Item on Amazon",
+        "description": "",
+        "id": "demo1;search-item-on-amazon",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3998028422,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter item on search bar",
+            "match": {
+              "location": "HomePageSteps.i_enter_item_on_search_bar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2650142961,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click submit button",
+            "match": {
+              "location": "HomePageSteps.i_click_submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Demo1",
+    "description": "",
+    "id": "demo1",
+    "keyword": "Feature",
+    "uri": "features/Demo1.feature"
+  }
+]
